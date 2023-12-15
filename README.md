@@ -46,43 +46,48 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 
  
  
-### Procedure
-/* write all the steps invloved */
+### Procedure :
+1.Start the module using module projname(). 
+2.Declare the inputs and outputs along with the select
+lines according to the multiplexer and demultiplexer. 
+3.Use wire to assign intermediate outputs.
+4.Use and,or and not gates to get the desired output. 
+5.End the module. 
+6.Generate RTL realization
+and timing diagrams
 
 
 
-### PROGRAM 
-/*
+
+### PROGRAM :
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: JAYA ABIRAMI S
+RegisterNumber:  212223220038
+
+### CODE :
+## MULTIPLEXER:![MUX CODE](https://github.com/JayaAbirami/Exercise-07-Multiplexer-and-De-multiplexer/assets/151487010/5e99cf8f-7d22-4976-bce9-e77f58e465b3)
+
+## DE MULTIPLEXER:![DEMUX CODE](https://github.com/JayaAbirami/Exercise-07-Multiplexer-and-De-multiplexer/assets/151487010/9b7530c7-53f0-41a2-bb0e-ecbf0830efbd)
 
 
+### RTL LOGIC :
+## MULTIPLEXER:![MUX LOGIC](https://github.com/JayaAbirami/Exercise-07-Multiplexer-and-De-multiplexer/assets/151487010/46e3e2bb-bb92-46c5-8795-4e77c52f4d95)
+
+## DE MULTIPLEXER:![DEMUX LOGIC](https://github.com/JayaAbirami/Exercise-07-Multiplexer-and-De-multiplexer/assets/151487010/6ccc8f15-86c8-461c-944b-313688232063)
 
 
+### TIMING DIGRAMS :
+## MULTIPLEXER:![MUX TIME](https://github.com/JayaAbirami/Exercise-07-Multiplexer-and-De-multiplexer/assets/151487010/74a9ccb9-acdf-4c57-85e5-7144b55404fb)
 
 
-### RTL LOGIC  
+## DE MULTIPLEXER:![DEMUX TIME](https://github.com/JayaAbirami/Exercise-07-Multiplexer-and-De-multiplexer/assets/151487010/86d25faa-80ee-4a2f-af61-1e3e5af33e61)
 
 
+### TRUTH TABLE :
+## MULTIPLEXER:![MUX TT](https://github.com/JayaAbirami/Exercise-07-Multiplexer-and-De-multiplexer/assets/151487010/8cb0c52d-0646-4c29-8fa4-6ddc3a5ee0a8)
+
+## DE MULTIPLEXER:![DEMUX TT](https://github.com/JayaAbirami/Exercise-07-Multiplexer-and-De-multiplexer/assets/151487010/4f1499b9-af43-49de-b78a-970a1c62b943)
 
 
-
-
-
-
-### TIMING DIGRAMS  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
+### RESULTS :Thus the program to design multiplexer and de-multiplexer is successfully completed.
